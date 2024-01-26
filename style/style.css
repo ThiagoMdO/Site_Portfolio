@@ -1,0 +1,287 @@
+/* DOCTYPE - CSS
+*@author Thiago Mendes
+*@version 1.0
+*/
+
+
+/*========================= layout =========================*/
+
+.first-frame, .secound-frame, #project1{
+	padding-top: 25px;
+	padding-left: 50px;	
+	font-weight: 800;
+}
+.first-frame{
+	/*background: #051A16;*/
+	color: #F8F7F9;
+	height: 100vh;
+}
+.first-frame h6, .btn-custom-white{
+	font-size: 24px;
+}
+.first-frame h1{
+	font-size: 80px;
+}
+.first-frame h1, .first-frame h6{
+	font-weight: 800;
+}
+
+.first-frame p{
+	color: #CCCCCC;
+	margin-top: 50px;
+	text-align: justify;
+	width: 400px;
+}
+
+.btn-custom{
+	color: white;
+	font-weight: 600;
+	width: 350px;
+	border: 1px solid #F1875E;
+	border-radius: 10px;
+	transition: all .3s;
+}
+.btn-custom:hover{
+	color: #F1875E;
+	background: #F8F7F9;
+}
+
+.my-references{
+	margin: 50px 0 0 50px;
+	width: 400px;
+}
+.my-references img{
+	margin: 25px;
+	width: 100px;
+}
+.first-frame .link-references{
+	display: inline-block;
+	text-decoration: none;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	-webkit-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+    -moz-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+    -o-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+    transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+
+	background-size: 100%;
+	margin: 10px 25px;
+}
+
+.CV-icon{	
+	background: url('../img/CV-icon.png');
+}
+.CV-icon:hover{
+	background: url('../img/CV-icon-press.png');
+	background-size: 100%;
+}
+.LinkedIn-icon{	
+	background: url('../img/LinkedIn-icon.png');
+}
+.LinkedIn-icon:hover{
+	background: url('../img/LinkedIn-icon-press.png');
+	background-size: 100%;
+}
+.GitHub-icon{	
+	background: url('../img/GitHub-icon.png');
+}
+.GitHub-icon:hover{
+	background: url('../img/GitHub-icon-press.png');
+	background-size: 100%;
+}
+.email-icon{	
+	background: url('../img/email-icon.png');
+}
+.email-icon:hover{
+	background: url('../img/email-icon-press.png');
+	background-size: 100%;
+}
+
+.arrow-down{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	height: 100px;
+	background-size: 100%;
+	/*background: red;*/
+}
+.arrow-down img{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	height: 100px;
+	background-size: 100%;
+	margin-top: -40px;
+	top: 700%;
+	/*background: url('../img/email-icon-press.png');*/
+	/*background: red;*/
+}
+
+.img-cod-gif{
+	position: absolute;
+	width: 1000px;
+	margin-top: 5%;
+	margin-left: -20%;
+	box-shadow: 0px 0px 10px 10px black;
+}
+
+
+.secound-frame{
+	background: #FFF;
+	height: 95vh;
+	padding-top: 90px;
+	padding-left: 150px;
+	text-align: justify;
+}
+.secound-frame h2{
+	font-weight: 700;
+	color: #808080;
+	margin-bottom: 20px;
+}
+.secound-frame .picture-perfil{
+	width: 200px;
+}
+.secound-frame .contact{
+	margin-top: 100px;
+	color: #F1875E;
+}
+.secound-frame .contact:hover{
+	color: #F8F7F9;
+	background: #F1875E;
+}
+
+.secound-frame .about-me{
+
+}
+.secound-frame .about-me-ideologies{
+	font-size: 12px;
+	color: #9C9C9C;
+}
+.skills{
+	margin-bottom: 20px;
+}
+.tech-icon{
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+
+.java-icon{
+	background: url('../img/technologies/java-icon.png') no-repeat;
+	background-size: 100%;
+}
+.php-icon{
+	background: url('../img/technologies/php-icon.png') no-repeat;
+	background-size: 100%;
+}
+.js-icon{
+	background: url('../img/technologies/js-icon.png') no-repeat;
+	background-size: 100%;
+}
+.springBoot-icon{
+	background: url('../img/technologies/springBoot-icon.png') no-repeat;
+	background-size: 100%;
+}
+.jquery-icon{
+	background: url('../img/technologies/jquery-icon.png') no-repeat;
+	background-size: 100%;
+}
+.awsPractitioner-icon{
+	background: url('../img/technologies/awsPractitioner-icon.png') no-repeat;
+	background-size: 100%;
+}
+.mySQL-icon{
+	background: url('../img/technologies/mySQL-icon.png') no-repeat;
+	background-size: 100%;
+}
+.html5-icon{
+	background: url('../img/technologies/html5-icon.png') no-repeat;
+	background-size: 100%;
+}
+.css3-icon{
+	background: url('../img/technologies/css3-icon.png') no-repeat;
+	background-size: 100%;
+}
+.postman-icon{
+	background: url('../img/technologies/postman-icon.png') no-repeat;
+	background-size: 100%;
+}
+.docker-icon{
+	background: url('../img/technologies/docker-icon.png') no-repeat;
+	background-size: 100%;
+}
+
+.work-title{
+	padding-bottom: 90px;
+}
+.project-description a{
+	margin-top: 50px;
+}
+.project{	
+	height: 90vh;
+}
+#project1{
+	background: #27A48D;
+	color: #F8F7F9;
+}
+
+#project1 p{
+	font-weight: 500;
+	width: 50%;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#project1 .video-first-project a img{
+	width: 92vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-me{
+	height: 70vh;
+	width: 100%;
+}
+
+.form-contact-me{
+	width: 50%;
+}
+
+
+/*===================== Tipografia =====================*/
+body{
+	background: url('../img/fluxo-cod.png') no-repeat fixed;
+	background-size: 100%;
+}
+
+*{
+	list-style: none;
+	font-family: Poppins,sans-serif;
+	text-decoration: none;
+}
+u{
+	text-decoration: underline;
+	color: gray;
+}
+input{
+	width: 100%;
+}
+
+.align-texto-center{
+	text-align: center;
+}
