@@ -238,8 +238,13 @@
 	color: #F8F7F9;
 }
 
+<<<<<<< HEAD
 #project2 #first-video-secound-project, #project2 #secound-video-secound-project{
 	
+=======
+#project2 #first-video-secound-project iframe, #project2 #secound-video-secound-project iframe{
+	transition: height .02s;
+>>>>>>> a8cebf2415060b8a720a713affdd8141cf8f4bc6
 }
 
 
@@ -307,7 +312,13 @@ input{
 }
 
 .height-0px{
+<<<<<<< HEAD
 	display: none;
+=======
+	position: absolute;
+	height: 0px;
+	transition: height .1s;
+>>>>>>> a8cebf2415060b8a720a713affdd8141cf8f4bc6
 }
 
 .height-570px{

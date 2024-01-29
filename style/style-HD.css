@@ -82,4 +82,43 @@
 	}
 }
 
+<<<<<<< HEAD
+=======
+
+
+.contact-title h2{	
+	font-weight: 700;
+	color: #FFF;
+	margin: 50px 0 30px;
+}
+
+.contact-title h5{
+	margin: 0 auto;
+	color: #FFF;
+}
+
+
+.contact-me{
+	height: 50%;
+	width: 100%;
+}
+
+#form-contact-me{
+	width: 50%;
+	height: 70%;
+}
+#form-contact-me input, #form-contact-me textarea{
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #F1875E;
+	padding: 15px;
+	width: 100%;
+	max-width: 100%;
+}
+
+#form-contact-me button{
+	box-sizing: border-box;
+	margin: 30px 0;
+}
+>>>>>>> a8cebf2415060b8a720a713affdd8141cf8f4bc6
 /*===================== Tipografia =====================*/
