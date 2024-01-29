@@ -1,12 +1,13 @@
 /* DOCTYPE - CSS
 *@author Thiago Mendes
 *@version 1.0
+*@Resolution: Full HD 1920x1080
 */
 
 
 /*========================= layout =========================*/
-
-.first-frame, .secound-frame, #project1{
+/* full HD */
+.first-frame, .secound-frame, .project{
 	padding-top: 25px;
 	padding-left: 50px;	
 	font-weight: 800;
@@ -50,10 +51,7 @@
 	margin: 50px 0 0 50px;
 	width: 400px;
 }
-.my-references img{
-	margin: 25px;
-	width: 100px;
-}
+
 .first-frame .link-references{
 	display: inline-block;
 	text-decoration: none;
@@ -64,7 +62,6 @@
     -moz-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
     -o-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
     transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
-
 	background-size: 100%;
 	margin: 10px 25px;
 }
@@ -120,14 +117,6 @@
 	/*background: red;*/
 }
 
-.img-cod-gif{
-	position: absolute;
-	width: 1000px;
-	margin-top: 5%;
-	margin-left: -20%;
-	box-shadow: 0px 0px 10px 10px black;
-}
-
 
 .secound-frame{
 	background: #FFF;
@@ -153,9 +142,6 @@
 	background: #F1875E;
 }
 
-.secound-frame .about-me{
-
-}
 .secound-frame .about-me-ideologies{
 	font-size: 12px;
 	color: #9C9C9C;
@@ -226,23 +212,52 @@
 .project{	
 	height: 90vh;
 }
+.video-project-2{
+	width: 100%;
+	height: 90%;
+}
 #project1{
 	background: #27A48D;
 	color: #F8F7F9;
 }
 
-#project1 p{
+.project p{
 	font-weight: 500;
 	width: 50%;
 	text-align: justify;
 	font-size: 14px;
 }
 
-#project1 .video-first-project a img{
-	width: 92vh;
+
+
+#project2{
+	background: #051916;
+	color: #F8F7F9;
+}
+#project2 #secound-video-secound-project iframe{
+	margin-bottom: 0px;
+}
+#project2 #first-video-secound-project iframe, #project2 #secound-video-secound-project iframe{
+	transition: height .02s;
+}
+#project2 #first-video-secound-project:hover iframe, #project2 #secound-video-secound-project:hover iframe{
+	
 }
 
+.contact-title{
+	text-align: center;
+}
 
+.contact-title h2{	
+	font-weight: 700;
+	color: #FFF;
+	margin: 50px 0 30px;
+}
+
+.contact-title h5{
+	margin: 0 auto;
+	color: #FFF;
+}
 
 
 
@@ -254,15 +269,27 @@
 
 
 .contact-me{
-	height: 70vh;
+	height: 50vh;
 	width: 100%;
 }
 
-.form-contact-me{
+#form-contact-me{
 	width: 50%;
+	height: 70%;
+}
+#form-contact-me input, #form-contact-me textarea{
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #F1875E;
+	padding: 15px;
+	width: 100%;
+	max-width: 100%;
 }
 
-
+#form-contact-me button{
+	box-sizing: border-box;
+	margin: 30px 0;
+}
 /*===================== Tipografia =====================*/
 body{
 	background: url('../img/fluxo-cod.png') no-repeat fixed;
@@ -284,4 +311,15 @@ input{
 
 .align-texto-center{
 	text-align: center;
+}
+
+.height-1px{
+	position: absolute;
+	height: 0px;
+	transition: height 1s;
+}
+
+.height-570px{
+	height: 570px;
+	transition: height 1s;
 }

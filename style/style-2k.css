@@ -1,0 +1,135 @@
+/* DOCTYPE - CSS
+*@author Thiago Mendes
+*@version 1.0
+*@Resolution: 2K 2560x1440, 2190px*
+*/
+
+
+/*========================= layout =========================*/
+/* 2K 2190px*/
+@media screen and (min-width: 2190px){
+	.first-frame, .secound-frame, .project{
+		padding-top: 100px;
+		padding-left: 150px;
+		font-weight: 800;
+	}
+
+	.first-frame h6, .btn-custom-white{
+		font-size: 38px;
+	}
+
+	.first-frame h1{
+		font-size: 150px;
+	}
+
+	.first-frame p{
+		font-size: 30px;
+		margin-top: 50px;
+		text-align: justify;
+		width: 660px;
+	}
+
+	.btn-custom{
+		width: 600px;
+		padding: 20px 0;
+		font-size: 30px;
+		border: 1px solid #F1875E;
+		border-radius: 10px;
+		transition: all .3s;
+	}
+
+	.my-references{
+		margin: 100px 0 0 0;
+		width: 700px;
+	}
+
+	.first-frame .link-references{
+		width: 120px;
+		height: 120px;
+	}
+
+	.arrow-down{
+		width: 100%;
+		height: 130px;
+		background-size: 100%;
+		/*background: red;*/
+	}
+
+	.arrow-down img{
+		height: 120px;
+	}
+	.secound-frame{
+		padding-top: 140px;
+	}
+
+	.secound-frame h2{
+		margin-bottom: 50px;
+		font-size: 62px;
+	}
+
+	.secound-frame .picture-perfil{
+		width: 400px;
+	}
+
+	.secound-frame .about-me-intro{
+		font-size: 24px;
+	}
+	.secound-frame .about-me-ideologies{
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+
+	.skills{
+		margin-bottom: 20px;
+	}
+
+	.tech-icon{
+		width: 90px;
+		height: 90px;
+		margin-top: 0;
+	}
+
+	.work-title h2{
+		font-size: 62px;
+	}
+
+	.project-description a{
+		margin-top: 50px;
+	}
+
+	.project p{
+		font-size: 24px;
+	}
+
+	.project-gitHub{
+		margin-bottom: 50px;
+	}
+
+	.contact-me{
+		height: 70vh;
+	}
+	.contact-title h2{	
+		font-size: 62px;
+		margin: 20px 0 20px;
+	}
+
+	.contact-title h5{
+		font-size: 35px;
+		margin: 20px auto;
+	}
+	#form-contact-me{
+		margin-top: -20px;
+	}
+	#form-contact-me input, #form-contact-me textarea{
+		font-size: 24px;
+		margin: 5px;
+		border-radius: 5px;
+		border: 1px solid #F1875E;
+		padding: 15px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+}
+
+

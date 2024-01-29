@@ -17,9 +17,51 @@
 	<!-- jquery V 3.7 CDN -->
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
-	<!-- CSS externo -->
+
+	<!-- CSS externo Full HD 1920x1080 (principal)-->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
+	<!-- CSS externo HD 1280x720, 1350px -->
+	<link rel="stylesheet" type="text/css" href="style/style-HD.css">
+
+	<!-- CSS externo >= 2K 2560x1440, 2190px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-2k.css">
+
+	<script>
+		$(document).ready(function(){
+			
+			$('#iframe-video-projeto-1').hover(
+		        function(){
+		            $('#iframe-video-projeto-1').addClass('height-570px');
+		            $('#iframe-video-projeto-2').addClass('height-1px');
+		        },
+		        function(){
+
+		            $('#iframe-video-projeto-1').removeClass('height-570px');
+		            $('#iframe-video-projeto-1').removeClass('height-1px');
+					$('#iframe-video-projeto-2').removeClass('height-570px');
+		            $('#iframe-video-projeto-2').removeClass('height-1px');
+
+		        }
+		    );
+
+		    $('#iframe-video-projeto-2').hover(
+		        function(){
+		            $('#iframe-video-projeto-2').addClass('height-570px');
+		            $('#iframe-video-projeto-1').addClass('height-1px');
+		        },
+		        function(){
+
+		            $('#iframe-video-projeto-2').removeClass('height-570px');
+		            $('#iframe-video-projeto-2').removeClass('height-1px');
+					$('#iframe-video-projeto-1').removeClass('height-570px');
+		            $('#iframe-video-projeto-1').removeClass('height-1px');
+
+		        }
+		    );
+		})
+
+	</script>
 </head>
 <body>
 	<div id="main">
@@ -32,7 +74,7 @@
 						<br/>
 						Full Stack
 					</h1>
-					<p class="apresentation1">Estudante de Engenharia de Software, atuado como estagíario backend com Java, Spring Boot na empresa Compass por 5 meses e AWS Cloud Practitioner. <br>
+					<p class="apresentation1">Estudante de Engenharia de Software, atuado como estagiário backend com Java, Spring Boot na empresa Compass por 5 meses e AWS Cloud Practitioner. <br>
 					Aperfeiçoando conhecimentos com Java, Spring Framework e Docker</p>
 
 					<br/>
@@ -65,9 +107,16 @@
 				<div class="col-md-6">
 				<h2>Sobre mim</h2>
 					<p class="about-me-intro">
-						ASSUNTOS RELACIONADOS A LÓGICA, FILOSoFIA E CONHECIMENTOS MAIS GERAIS DA FÍSICA ME FAZ QUERER APRENDER MAIS SOBRE.
+						Sou do interior do estado da Bahia
 						<br/>
-						A CURIOSIDADE ME DÁ A VONTADE DE ESTUDAR PROGRAMAÇÃO.
+						Tenho formação como Técnico em Eletrotécnica, com experiência nas áreas de elétrica industrial, residencial, instalação de painéis fotovoltaicos e infraestrutura elétrica.
+						<br/>
+						<br/>
+						<u>Por que escolhi a programação?</u>
+						<br/>	
+						Um dos motivos pelos quais optei por ser desenvolvedor é o meu interesse em assuntos relacionados à lógica, criação e teste de soluções. Além disso, tenho afinidade com áreas como filosofia e assuntos mais gerais da física.
+
+						
 					</p>
 
 					<p class="about-me-ideologies">
@@ -139,22 +188,72 @@
 					</div>
 
 				</div>
-				<div class="col-md-6 video-first-project ">
-					<div class="d-flex justify-content-end">
-					    <a href="https://www.loom.com/share/a4287b2b5ce44259891654e11b886cb8">
-					      <img style="max-width:90%;" src="https://cdn.loom.com/sessions/thumbnails/a4287b2b5ce44259891654e11b886cb8-with-play.gif">
-					    </a>
+				<div class="col-md-6 video-project ">
+					<div style="position: relative; padding-bottom: 70.51851851851852%; height: 0;">
+						<iframe src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 90%; height: 92%;"></iframe>
+					</div>					
+				</div>
+				
+			</div>
+
+		</div>
+		<div id="project2" class="container-fluid project">
+			<div class="row">
+				<div class="col-md-12 work-title">
+					<h2>Trabalho Recente</h2>					
+				</div>
+				<div class="col-md-6">
+
+					<div class="align-texto-center project-description">
+						<h2>Challenge02_User</h2>						
+						<br/>
+						<div class="d-flex justify-content-center">
+							<p class="d-flex ">
+								Esta é uma aplicação Backend na qual é possível cadastrar, logar, autenticar com token, JTW, exibir informações do usuário por ID, editar informações da conta e senha do usuário.
+								<br/>
+								No primeiro video, sem audio, mostro o passo a passo da aplicação funcionando com requests da maneira correta, e no segundo video mostro requests incorretas as exceções tratadas
+							</p>
+						</div>
+
+						<div class="project-gitHub">
+							<a href="https://github.com/ThiagoMdO/SpringBoot_Challenge02_User_Management_Thiago_Mendes" type="button" class="btn btn-custom" target="_blank">Projeto no GitHub</a>
+						</div>
+						<div class="skills">
+						<div class="container">
+							<div class="tech-icon java-icon"></div>
+							<div class="tech-icon springBoot-icon"></div>
+							<div class="tech-icon mySQL-icon"></div>
+							<div class="tech-icon postman-icon"></div>
+						</div>
+					</div>
+
+					</div>
+
+				</div>
+
+				<div id="video-project-2" class="col-md-6 video-project">
+					<div id="first-video-secound-project" class=" " >
+					    <iframe id="iframe-video-projeto-1" width="100%" height="270px" src="https://www.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+					<div id="secound-video-secound-project" class=" ">
+						<iframe id="iframe-video-projeto-2" width="100%" height="270px"  src="https://www.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
 				
 			</div>
 
 		</div>
-		
-asdas
-
+		<div  class="container-fluid d-flex justify-content-center">
+			<div class="row">
+				<div class="col-md-12 contact-title">
+					<h2>Entre em contato</h2>
+					<h5>Preencha o formulario para me contatar por email</h5>					
+				</div>
+			</div>
+		</div>
 		<div class="contact-me d-flex justify-content-center align-items-center">
-			<form id="form-contact-me" class="" action="enviar_email.php" method="post" >
+			<br/>
+			<form id="form-contact-me" class="align-texto-center" action="enviar_email.php" method="post" >
 			    <input type="text" id="nome" name="nome" placeholder="Nome*" required>
 
 			    <input type="email" id="email" name="email" placeholder="E-mail*" required>
@@ -163,11 +262,12 @@ asdas
 
 			    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Mensagem*" required></textarea>
 
-			    <input type="submit" value="Enviar">
+			    <button type="submit" class="btn btn-custom ">Enviar</button>
 			</form>
 
 		</div>
 			
 	</div>
+
 </body>
 </html>

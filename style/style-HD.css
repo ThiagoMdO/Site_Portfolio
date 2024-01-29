@@ -1,0 +1,112 @@
+/* DOCTYPE - CSS
+*@author Thiago Mendes
+*@version 1.0
+*@Resolution: HD 1280x720, 1350px*
+*/
+
+
+/*========================= layout =========================*/
+/* HD */
+
+@media screen and (min-width: 960px) and (max-width: 1350px){
+	.first-frame h6, .btn-custom-white{
+		font-size: 16px;
+	}
+
+	.first-frame h1{
+		font-size: 50px;
+	}
+
+	.first-frame p{
+		margin-top: 30px;
+		text-align: justify;
+		width: 400px;
+	}
+
+	.btn-custom{
+		width: 250px;
+	}
+
+	.my-references{
+		margin: 30px 0 0;
+		width: 360px;
+	}
+
+	.first-frame .link-references{
+		width: 55px;
+		height: 55px;
+		margin: 10px 15px;
+	}
+
+	.arrow-down{
+		width: 100px;
+		height: 55px;
+		background-size: 100%;
+		/*background: red;*/
+	}
+
+	.secound-frame{
+		padding-top: 50px;
+		padding-left: 50px;
+		text-align: justify;
+	}
+
+	.secound-frame h2{
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+
+	.secound-frame .about-me-intro{
+		font-size: 14px;
+	}
+
+	.skills{
+		margin-bottom: 10px;
+	}
+
+	.work-title{
+		padding-bottom: 0px;
+	}
+	.video-project-2{
+		width: 100%;
+		height: 80%;
+	}
+}
+
+
+
+.contact-title h2{	
+	font-weight: 700;
+	color: #FFF;
+	margin: 50px 0 30px;
+}
+
+.contact-title h5{
+	margin: 0 auto;
+	color: #FFF;
+}
+
+
+.contact-me{
+	height: 50vh;
+	width: 100%;
+}
+
+#form-contact-me{
+	width: 50%;
+	height: 70%;
+}
+#form-contact-me input, #form-contact-me textarea{
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #F1875E;
+	padding: 15px;
+	width: 100%;
+	max-width: 100%;
+}
+
+#form-contact-me button{
+	box-sizing: border-box;
+	margin: 30px 0;
+}
+/*===================== Tipografia =====================*/
