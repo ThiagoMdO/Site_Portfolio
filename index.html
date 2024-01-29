@@ -18,10 +18,13 @@
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 
-	<!-- CSS externo Full HD 1920x1080 (principal)-->
+	<!-- CSS externo Full HD 1920x1080 (principal) -->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
-	<!-- CSS externo HD 1280x720, 1350px -->
+	<!-- CSS externo HD tablet 480px — 959px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-tablet.css">
+
+	<!-- CSS externo HD 1280x720, 1350px* -->
 	<link rel="stylesheet" type="text/css" href="style/style-HD.css">
 
 	<!-- CSS externo >= 2K 2560x1440, 2190px* -->
@@ -32,30 +35,30 @@
 			
 			$('#iframe-video-projeto-1').hover(
 		        function(){
+		            $('#iframe-video-projeto-2').addClass('height-0px');
 		            $('#iframe-video-projeto-1').addClass('height-570px');
-		            $('#iframe-video-projeto-2').addClass('height-1px');
 		        },
 		        function(){
 
 		            $('#iframe-video-projeto-1').removeClass('height-570px');
-		            $('#iframe-video-projeto-1').removeClass('height-1px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
 					$('#iframe-video-projeto-2').removeClass('height-570px');
-		            $('#iframe-video-projeto-2').removeClass('height-1px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
 
 		        }
 		    );
 
 		    $('#iframe-video-projeto-2').hover(
 		        function(){
+		            $('#iframe-video-projeto-1').addClass('height-0px');
 		            $('#iframe-video-projeto-2').addClass('height-570px');
-		            $('#iframe-video-projeto-1').addClass('height-1px');
 		        },
 		        function(){
 
 		            $('#iframe-video-projeto-2').removeClass('height-570px');
-		            $('#iframe-video-projeto-2').removeClass('height-1px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
 					$('#iframe-video-projeto-1').removeClass('height-570px');
-		            $('#iframe-video-projeto-1').removeClass('height-1px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
 
 		        }
 		    );
@@ -188,9 +191,9 @@
 					</div>
 
 				</div>
-				<div class="col-md-6 video-project ">
-					<div style="position: relative; padding-bottom: 70.51851851851852%; height: 0;">
-						<iframe src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 90%; height: 92%;"></iframe>
+				<div class="col-md-6 video-project">
+					<div style="position: relative; padding-bottom: 70.51851851851852%;">
+						<iframe width="100%" src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 90%; height: 92%;"></iframe>
 					</div>					
 				</div>
 				

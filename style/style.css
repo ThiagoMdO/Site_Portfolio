@@ -48,6 +48,7 @@
 }
 
 .my-references{
+	text-align: center;
 	margin: 50px 0 0 50px;
 	width: 400px;
 }
@@ -234,14 +235,9 @@
 	background: #051916;
 	color: #F8F7F9;
 }
-#project2 #secound-video-secound-project iframe{
-	margin-bottom: 0px;
-}
+
 #project2 #first-video-secound-project iframe, #project2 #secound-video-secound-project iframe{
 	transition: height .02s;
-}
-#project2 #first-video-secound-project:hover iframe, #project2 #secound-video-secound-project:hover iframe{
-	
 }
 
 .contact-title{
@@ -275,7 +271,7 @@
 
 #form-contact-me{
 	width: 50%;
-	height: 70%;
+	height: 100%;
 }
 #form-contact-me input, #form-contact-me textarea{
 	margin: 5px;
@@ -313,10 +309,10 @@ input{
 	text-align: center;
 }
 
-.height-1px{
+.height-0px{
 	position: absolute;
 	height: 0px;
-	transition: height 1s;
+	transition: height .1s;
 }
 
 .height-570px{
