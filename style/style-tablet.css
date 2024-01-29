@@ -1,0 +1,71 @@
+/* DOCTYPE - CSS
+*@author Thiago Mendes
+*@version 1.0
+*@Resolution: tablet width: 480px — 959px
+*/
+
+
+/*========================= layout =========================*/
+/* tablet */
+
+@media screen and (min-width: 480px) and (max-width: 959px){
+	body{
+		background-size: 200%;
+	}
+	
+	.first-frame, .secound-frame, .project{
+		padding-top: 15px;
+		padding-left: 15px;	
+		font-weight: 500;
+	}
+
+	.first-frame h6, .btn-custom-white{
+		font-size: 16px;
+	}
+
+	.first-frame h1{
+		font-size: 32px;
+	}
+	.first-frame p{
+		font-size: 12px;
+		margin-top: 20px;
+		width: 250px;
+	}
+
+	.btn-custom{
+		margin: ;
+		font-weight: 600;
+		width: 200px;
+		font-size: 12px;
+	}
+
+	.my-references{
+		margin: 20px 0 0 20px;
+		width: 300px;
+		text-align: center;
+	}
+
+	.arrow-down{
+		display: none;
+	}
+
+	.secound-frame, .project{
+		height: 100%;
+		padding-top: 90px;
+		padding: 10px 25px;
+		text-align: justify;
+	}
+
+	.video-project iframe{
+		margin: 0 5%;
+		width: 90%;
+		height: 90%;
+	}
+}
+
+
+@media screen and (min-width: 790px) and (max-width: 959px){
+	body{
+		background-size: 150%;
+	}
+}

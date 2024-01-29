@@ -18,48 +18,71 @@
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 
-	<!-- CSS externo Full HD 1920x1080 (principal)-->
+	<!-- CSS externo Full HD 1920x1080 (principal) -->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
-	<!-- CSS externo HD 1280x720, 1350px -->
+	<!-- CSS externo HD cellphones <= 479px 350px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-cellphones.css">
+
+	<!-- CSS externo HD tablet 480px — 959px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-tablet.css">
+
+	<!-- CSS externo HD 1280x720, 1350px* -->
 	<link rel="stylesheet" type="text/css" href="style/style-HD.css">
 
 	<!-- CSS externo >= 2K 2560x1440, 2190px* -->
 	<link rel="stylesheet" type="text/css" href="style/style-2k.css">
 
+	<!-- CSS externo >= 4K 3840x2160, 2190px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-4k.css">
+
 	<script>
 		$(document).ready(function(){
 			
-			$('#iframe-video-projeto-1').hover(
+			$('#first-video-secound-project').hover(
 		        function(){
+		            $('#iframe-video-projeto-2').removeClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').removeClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-2').addClass('height-0px');
 		            $('#iframe-video-projeto-1').addClass('height-570px');
-		            $('#iframe-video-projeto-2').addClass('height-1px');
 		        },
 		        function(){
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height-4k');
 
 		            $('#iframe-video-projeto-1').removeClass('height-570px');
-		            $('#iframe-video-projeto-1').removeClass('height-1px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
 					$('#iframe-video-projeto-2').removeClass('height-570px');
-		            $('#iframe-video-projeto-2').removeClass('height-1px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
 
 		        }
 		    );
 
-		    $('#iframe-video-projeto-2').hover(
+		    $('#secound-video-secound-project').hover(
 		        function(){
+					$('#iframe-video-projeto-1').removeClass('video-project-normal-height');					
+					$('#iframe-video-projeto-1').removeClass('video-project-normal-height-4k');					
+		            $('#iframe-video-projeto-1').addClass('height-0px');
 		            $('#iframe-video-projeto-2').addClass('height-570px');
-		            $('#iframe-video-projeto-1').addClass('height-1px');
 		        },
 		        function(){
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height-4k');
 
 		            $('#iframe-video-projeto-2').removeClass('height-570px');
-		            $('#iframe-video-projeto-2').removeClass('height-1px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
 					$('#iframe-video-projeto-1').removeClass('height-570px');
-		            $('#iframe-video-projeto-1').removeClass('height-1px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
 
 		        }
 		    );
 		})
+
+
 
 	</script>
 </head>
@@ -74,7 +97,7 @@
 						<br/>
 						Full Stack
 					</h1>
-					<p class="apresentation1">Estudante de Engenharia de Software, atuado como estagiário backend com Java, Spring Boot na empresa Compass por 5 meses e AWS Cloud Practitioner. <br>
+					<p class="apresentation1">Estudante de Engenharia de Software, atuei como estagiário backend com Java, Spring Boot na empresa Compass por 5 meses e possuo a certificação AWS Cloud Practitioner. <br>
 					Aperfeiçoando conhecimentos com Java, Spring Framework e Docker</p>
 
 					<br/>
@@ -122,9 +145,9 @@
 					<p class="about-me-ideologies">
 						Gosto de pensar que, por meio da programação, temos o potencial de transcender nossas expectativas e nos tornarmos algo extraordinário.
 						<br/>
-						Com uma comunicação inteligente, cuidadosa utilização das tecnologias e adoção de boas práticas, podemos evoluir para seres mais sociáveis e conectados, entre nós. Além disso, acredito também que ao abraçarmos a diversidade das pessoas, estaremos construindo para um futuro mais inclusivo e receptivo.
+						Com uma comunicação inteligente, utilização cuidadosa das tecnologias e adoção de boas práticas e o respeito com a diversidade podemos evoluir para seres mais sociáveis e conectados, entre nós.
 						<br/>
-						A programação, quando combinada com valores humanos, nos oferece a oportunidade de criar uma sociedade que celebra a individualidade. Dessa forma, seremos não apenas programadores, mas agentes de transformação social.
+						A programação, quando combinada com valores humanos, nos oferece a oportunidade de criar uma sociedade que valoriza a individualidade e diversidade ao menos tempo. Dessa forma, seremos não apenas programadores, mas agentes de transformação social.
 					</p>
 					<h2>Skills</h2>
 					<div class="skills">
@@ -162,7 +185,7 @@
 						<h2>ERP_Basico_Loja_roupa</h2>						
 						<br/>
 						<div class="d-flex justify-content-center">
-							<p class="d-flex ">
+							<p class="d-flex">
 								O serviço, Loja de Roupa, é um ERP focado em vendas de roupas e semelhantes
 								<br/>
 								É possivel gerenciar controle de caixa, Contas a pagar, controles de produtos como cadastra-los, exibir em estoque, valores de estoque, registrar compras de fornecedores, e vendas para clientes cadastrados na loja.
@@ -188,9 +211,9 @@
 					</div>
 
 				</div>
-				<div class="col-md-6 video-project ">
-					<div style="position: relative; padding-bottom: 70.51851851851852%; height: 0;">
-						<iframe src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 90%; height: 92%;"></iframe>
+				<div class="col-md-6 video-project">
+					<div style="position: relative; padding-bottom: 70.51851851851852%;">
+						<iframe width="100%" src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 92%;"></iframe>
 					</div>					
 				</div>
 				
@@ -232,11 +255,11 @@
 				</div>
 
 				<div id="video-project-2" class="col-md-6 video-project">
-					<div id="first-video-secound-project" class=" " >
-					    <iframe id="iframe-video-projeto-1" width="100%" height="270px" src="https://www.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div id="first-video-secound-project">
+					    <iframe id="iframe-video-projeto-1" class="video-project-normal-height video-project-normal-height-4k" width="100%" height="100%" src="https://www.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
-					<div id="secound-video-secound-project" class=" ">
-						<iframe id="iframe-video-projeto-2" width="100%" height="270px"  src="https://www.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div id="secound-video-secound-project">
+						<iframe id="iframe-video-projeto-2" class="video-project-normal-height video-project-normal-height-4k" width="100%" height="100%" src="https://wwsw.loom.com/embed/180616ce5de44264af9454f620e13a78?sid=05d8e484-fdc5-4cb2-a092-9e4fe055c684" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
 				
@@ -270,4 +293,5 @@
 	</div>
 
 </body>
+
 </html>
