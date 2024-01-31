@@ -1,0 +1,172 @@
+/* DOCTYPE - CSS
+*@author Thiago Mendes
+*@version 1.0
+*@Resolution: tablet width: 480px — 959px
+
+
+
+/*========================= layout =========================*/
+/* tablet */
+
+@media screen and (min-width: 480px) and (max-width: 959px){
+	body{
+		background-size: 200%;
+	}
+	
+	.first-frame, .secound-frame, .project{
+		padding-top: 15px;
+		padding-left: 15px;	
+		font-weight: 500;
+	}
+
+	.first-frame h6, .btn-custom-white{
+		font-size: 16px;
+	}
+
+	.first-frame h1{
+		font-size: 32px;
+	}
+	.first-frame p{
+		font-size: 12px;
+		margin-top: 20px;
+		width: 250px;
+	}
+
+	.btn-custom{
+		margin: ;
+		font-weight: 600;
+		width: 200px;
+		font-size: 12px;
+	}
+
+	.my-references{
+		margin: 20px 0 0 20px;
+		width: 300px;
+		text-align: center;
+	}
+
+	.arrow-down{
+		display: none;
+	}
+
+	.secound-frame, .project{
+		height: 100%;
+		padding-top: 90px;
+		padding: 10px 25px;
+		text-align: justify;
+	}
+
+	.video-project iframe{
+		margin: 0 5%;
+		width: 90%;
+		height: 90%;
+	}
+	.secound-frame h2{
+		font-weight: 700;
+		color: #808080;
+		margin-bottom: 20px;
+	}
+	.secound-frame .picture-perfil{
+		width: 200px;
+	}
+	.secound-frame .contact{
+		margin-top: 100px;
+		color: #F1875E;
+	}
+	.secound-frame .contact:hover{
+		color: #F8F7F9;
+		background: #F1875E;
+	}
+
+	.secound-frame .about-me-ideologies{
+		font-size: 12px;
+		color: #9C9C9C;
+	}
+	.skills{
+		margin-bottom: 20px;
+	}
+	.tech-icon{
+		display: inline-block;
+		text-decoration: none;
+		width: 50px;
+		height: 50px;
+		margin-top: 10px;
+	}
+
+
+	.work-title{
+		padding-bottom: 90px;
+	}
+	.project-description a{
+		margin-top: 50px;
+	}
+
+
+	#project1{
+		background: #27A48D;
+		color: #F8F7F9;
+	}
+
+	.project p{
+		font-weight: 500;
+		width: 50%;
+		text-align: justify;
+		font-size: 14px;
+	}
+
+
+
+	#project2{
+		background: #051916;
+		color: #F8F7F9;
+	}
+
+	#project2 #first-video-secound-project iframe, #project2 #secound-video-secound-project iframe{
+		transition: height .02s;
+	}
+
+	.contact-title{
+		text-align: center;
+	}
+
+	.contact-title h2{	
+		font-weight: 700;
+		color: #FFF;
+		margin: 50px 0 30px;
+	}
+
+	.contact-title h5{
+		margin: 0 auto;
+		color: #FFF;
+	}
+
+	.contact-me{
+		height: 50vh;
+		width: 100%;
+	}
+
+	#form-contact-me{
+		width: 50%;
+		height: 100%;
+	}
+	#form-contact-me input, #form-contact-me textarea{
+		margin: 5px;
+		border-radius: 5px;
+		border: 1px solid #F1875E;
+		padding: 15px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#form-contact-me button{
+		box-sizing: border-box;
+		margin: 30px 0;
+	}
+}
+
+
+@media screen and (min-width: 790px) and (max-width: 959px){
+	body{
+		background-size: 150%;
+	}
+}

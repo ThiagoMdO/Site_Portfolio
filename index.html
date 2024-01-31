@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thiago Mendes - Perfil</title>
+
+	<!-- Bootstrap V 5.3 -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	
+	<!-- Bootstrap V 5.3 CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+	<!-- jquery V 3.7 -->
+	<script type="text/javascript" src="jqueryV3.7.js"></script>
+
+	<!-- jquery V 3.7 CDN -->
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+
+	<!-- CSS externo Full HD 1920x1080 (principal) -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<!-- CSS externo HD cellphones <= 479px 350px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-cellphones.css">
+
+	<!-- CSS externo HD tablet 480px — 959px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-tablet.css">
+
+	<!-- CSS externo HD 1280x720, 1350px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-HD.css">
+
+	<!-- CSS externo >= 2K 2560x1440, 2190px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-2k.css">
+
+	<!-- CSS externo >= 4K 3840x2160, 2190px* -->
+	<link rel="stylesheet" type="text/css" href="style/style-4k.css">
+
+	<script>
+		$(document).ready(function(){
+			
+			$('#first-video-secound-project').hover(
+		        function(){
+
+		            $('#iframe-video-projeto-2').removeClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').removeClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-2').addClass('height-0px');
+		            $('#iframe-video-projeto-1').addClass('height-570px');
+		        },
+		        function(){
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height-4k');
+
+		            $('#iframe-video-projeto-1').removeClass('height-570px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
+					$('#iframe-video-projeto-2').removeClass('height-570px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
+
+		        }
+		    );
+
+		    $('#secound-video-secound-project').hover(
+		        function(){
+					$('#iframe-video-projeto-1').removeClass('video-project-normal-height');					
+					$('#iframe-video-projeto-1').removeClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1').addClass('height-0px');
+		            $('#iframe-video-projeto-2').addClass('height-570px');
+		        },
+		        function(){
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1').addClass('video-project-normal-height-4k');
+
+		            $('#iframe-video-projeto-2').removeClass('height-570px');
+		            $('#iframe-video-projeto-2').removeClass('height-0px');
+					$('#iframe-video-projeto-1').removeClass('height-570px');
+		            $('#iframe-video-projeto-1').removeClass('height-0px');
+
+		        }
+		    );
+		})
+
+
+
+	</script>
+</head>
+<body>
+	<div id="main">
+		<div class="container-fluid first-frame">
+			<div class="row">
+				<div class="col-md-6">
+					<h6 class="">OLÁ, SOU O THIAGO</h6>
+					<h1>
+						Desenvolvedor
+						<br/>
+						Full Stack
+					</h1>
+					<p class="apresentation1">Estudante de Engenharia de Software, atuei como estagiário backend com Java, Spring Boot na empresa Compass por 5 meses e possuo a certificação AWS Cloud Practitioner. <br>
+					Aperfeiçoando conhecimentos com Java, Spring Framework e Docker</p>
+
+					<br/>
+					<a href="#project1" type="button" class="btn btn-custom">VEJA MEUS PROJETOS</a>
+					<br/>
+					<div class="my-references">
+						<a href="CV/01 - curriculo Thiago Mendes - Pintadas - BA.pdf" target="_blank" class="link-references CV-icon"></a>
+						<a href="https://www.linkedin.com/in/thiago-mdo" target="_blank" class="link-references LinkedIn-icon"></a>
+						<a href="https://github.com/ThiagoMdO" target="_blank" class="link-references GitHub-icon"></a>
+						<a href="mailto:oliveirathiagomendes@gmail.com" target="_blank" class="link-references email-icon"></a>
+					</div>
+				</div>
+				<div class="col-md-1">
+					<div class="arrow-down">
+						<img src="img/arrow-down.gif">
+						<img src="img/arrow-down.gif">
+					</div>
+				</div>
+			</div><!-- fim row -->
+		</div><!-- fim apresentação 1 -->
+		<div class="container-fluid secound-frame">
+			<div class="row">
+				<div class="col-md-5 align-texto-center">
+					<h2>Thiago Mendes</h2>
+					<img src="img/my-image.png" class="rounded-circle picture-perfil">
+					<br/>
+					<a href="#form-contact-me" type="button" class="btn btn-custom contact">Entrar em contado</a>
+				</div>
+
+				<div class="col-md-6">
+				<h2>Sobre mim</h2>
+					<p class="about-me-intro">
+						Sou do interior do estado da Bahia
+						<br/>
+						Tenho formação como Técnico em Eletrotécnica, com experiência nas áreas de elétrica industrial, residencial, instalação de painéis fotovoltaicos e infraestrutura elétrica.
+						<br/>
+						<br/>
+						<u>Por que escolhi a programação?</u>
+						<br/>	
+						Um dos motivos pelos quais optei por ser desenvolvedor é o meu interesse em assuntos relacionados à lógica, criação e teste de soluções. Além disso, tenho afinidade com áreas como filosofia e assuntos mais gerais da física.
+
+						
+					</p>
+
+					<p class="about-me-ideologies">
+						Gosto de pensar que, por meio da programação, temos o potencial de transcender nossas expectativas e nos tornarmos algo extraordinário.
+						<br/>
+						Com uma comunicação inteligente, utilização cuidadosa das tecnologias e adoção de boas práticas e o respeito com a diversidade podemos evoluir para seres mais sociáveis e conectados, entre nós.
+						<br/>
+						A programação, quando combinada com valores humanos, nos oferece a oportunidade de criar uma sociedade que valoriza a individualidade e diversidade ao menos tempo. Dessa forma, seremos não apenas programadores, mas agentes de transformação social.
+					</p>
+					<h2>Skills</h2>
+					<div class="skills">
+						<div class="container">
+							<div class="tech-icon java-icon"></div>
+							<div class="tech-icon php-icon"></div>
+							<div class="tech-icon js-icon"></div>
+							<div class="tech-icon springBoot-icon"></div>
+							<div class="tech-icon jquery-icon"></div>
+							<div class="tech-icon awsPractitioner-icon"></div>
+							<div class="tech-icon mySQL-icon"></div>
+							<div class="tech-icon html5-icon"></div>
+							<div class="tech-icon css3-icon"></div>
+							<div class="tech-icon postman-icon"></div>
+						</div>
+					</div>
+					<h2>Aperfeiçoando</h2>
+					<div class="skills">
+						<div class="container">
+							<div class="tech-icon docker-icon"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="project1" class="container-fluid project">
+			<div class="row">
+				<div class="col-md-12 work-title">
+					<h2>Trabalho Recente</h2>					
+				</div>
+				<div class="col-md-6">
+
+					<div class="align-texto-center project-description">
+						<h2>ERP_Basico_Loja_roupa</h2>						
+						<br/>
+						<div class="d-flex justify-content-center">
+							<p class="d-flex">
+								O serviço, Loja de Roupa, é um ERP focado em vendas de roupas e semelhantes
+								<br/>
+								É possivel gerenciar controle de caixa, Contas a pagar, controles de produtos como cadastra-los, exibir em estoque, valores de estoque, registrar compras de fornecedores, e vendas para clientes cadastrados na loja.
+								<br/>
+								É possivel acompanhar historio de vendas, compras, contas pagas e qualquer ação de cadastar, editar e excluir dados será registrada
+							</p>
+						</div>
+
+						<div class="project-gitHub">
+							<a href="https://github.com/ThiagoMdO/ERP_Basico_Loja_roupa" type="button" class="btn btn-custom" target="_blank">Projeto no GitHub</a>
+						</div>
+						<div class="skills">
+							<div class="container">
+								<div class="tech-icon php-icon"></div>
+								<div class="tech-icon js-icon"></div>
+								<div class="tech-icon jquery-icon"></div>
+								<div class="tech-icon mySQL-icon"></div>
+								<div class="tech-icon html5-icon"></div>
+								<div class="tech-icon css3-icon"></div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-6 video-project">
+					<div style="position: relative; padding-bottom: 70.51851851851852%;">
+						<iframe width="100%" src="https://www.loom.com/embed/a4287b2b5ce44259891654e11b886cb8?sid=78bd7d0c-2101-4d04-9141-766fbce758c6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 92%;"></iframe>
+					</div>					
+				</div>
+				
+			</div>
+
+		</div>
+		<div id="project2" class="container-fluid project">
+			<div class="row">
+				<div class="col-md-12 work-title">
+					<h2>Trabalho Recente</h2>					
+				</div>
+				<div class="col-md-6">
+
+					<div class="align-texto-center project-description">
+						<h2>Challenge02_User</h2>						
+						<br/>
+						<div class="d-flex justify-content-center">
+							<p class="d-flex ">
+								Esta é uma aplicação Backend na qual é possível cadastrar, logar, autenticar com token, JTW, exibir informações do usuário por ID, editar informações da conta e senha do usuário.
+								<br/>
+								No primeiro video, sem audio, mostro o passo a passo da aplicação funcionando com requests da maneira correta, e no segundo video mostro requests incorretas as exceções tratadas
+							</p>
+						</div>
+
+						<div class="project-gitHub">
+							<a href="https://github.com/ThiagoMdO/SpringBoot_Challenge02_User_Management_Thiago_Mendes" type="button" class="btn btn-custom" target="_blank">Projeto no GitHub</a>
+						</div>
+						<div class="skills">
+							<div class="container">
+								<div class="tech-icon java-icon"></div>
+								<div class="tech-icon springBoot-icon"></div>
+								<div class="tech-icon mySQL-icon"></div>
+								<div class="tech-icon postman-icon"></div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="video-project-2" class="col-md-6 video-project">
+					<div id="first-video-secound-project">
+					    <iframe id="iframe-video-projeto-1" class="video-project-normal-height video-project-normal-height-4k" width="100%" height="100%" src="https://www.loom.com/embed/930813abdb0241a5a29f56b93cdab1bf?sid=c448e78b-2e7e-4f4c-ac6c-387e0f4a413c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+					<div id="secound-video-secound-project">
+						<iframe id="iframe-video-projeto-2" class="video-project-normal-height video-project-normal-height-4k" width="100%" height="100%" src="https://www.loom.com/embed/01b6cc4b9ce443f08c4c2c0cfd9a3fd4?sid=d01ac61c-c897-464e-94c7-68a482871fca" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		<div  class="container-fluid d-flex justify-content-center">
+			<div class="row">
+				<div class="col-md-12 contact-title">
+					<h2>Entre em contato</h2>
+					<h5>Preencha o formulario para me contatar por email</h5>					
+				</div>
+			</div>
+		</div>
+		<div class="contact-me d-flex justify-content-center align-items-center">
+			<br/>
+			<form id="form-contact-me" class="align-texto-center" action="enviar_email.php" method="post" >
+			    <input type="text" id="nome" name="nome" placeholder="Nome*" required>
+
+			    <input type="email" id="email" name="email" placeholder="E-mail*" required>
+
+			    <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+
+			    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Mensagem*" required></textarea>
+
+			    <button type="submit" class="btn btn-custom ">Enviar</button>
+			</form>
+
+		</div>
+			
+	</div>
+
+</body>
+
+</html>
