@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +35,8 @@
 
 	<!-- CSS externo >= 4K 3840x2160, 2190px* -->
 	<link rel="stylesheet" type="text/css" href="style/style-4k.css">
+
+	<script defer src="app.js"></script>
 
 	<script>
 		$(document).ready(function(){
@@ -267,28 +269,32 @@
 			</div>
 
 		</div>
-		<div  class="container-fluid d-flex justify-content-center">
-			<div class="row">
-				<div class="col-md-12 contact-title">
-					<h2>Entre em contato</h2>
-					<h5>Preencha o formulario para me contatar por email</h5>					
-				</div>
-			</div>
-		</div>
 		<div class="contact-me d-flex justify-content-center align-items-center">
-			<br/>
-			<form id="form-contact-me" class="align-texto-center" action="enviar_email.php" method="post" >
+			<form action="https://formsubmit.co/ajax/28c535e8b70a90e5f764e2f1b3522e62" 
+					method="POST" 
+					data-form
+					id="form-contact-me" 
+					class="align-texto-center" >
+
+				<div  class="container-fluid d-flex justify-content-center">
+					<div class="row">
+						<div class="col-md-12 contact-title">
+							<h2>Entre em contato</h2>
+							<h5>Preencha o formulario para me contatar por email</h5>					
+						</div>
+					</div>
+				</div>
+
 			    <input type="text" id="nome" name="nome" placeholder="Nome*" required>
 
 			    <input type="email" id="email" name="email" placeholder="E-mail*" required>
 
 			    <input type="text" id="assunto" name="assunto" placeholder="Assunto">
 
-			    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Mensagem*" required></textarea>
+			    <textarea type="text" id="mensagem" name="mensagem" rows="4" placeholder="Mensagem*" required></textarea>
 
-			    <button type="submit" class="btn btn-custom ">Enviar</button>
+			    <button type="submit" class="btn btn-custom" data-button>Enviar</button>
 			</form>
-
 		</div>
 			
 	</div>

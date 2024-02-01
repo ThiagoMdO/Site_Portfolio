@@ -256,7 +256,7 @@
 
 
 .contact-me{
-	height: 50vh;
+	height: 100vh;
 	width: 100%;
 }
 
@@ -278,6 +278,19 @@
 	box-sizing: border-box;
 	margin: 30px 0;
 }
+
+.success {
+  color: #FFF;
+  text-shadow: 0 0 1px black;
+  margin: 50% auto;
+
+}
+
+.error {
+  color: tomato;
+  text-shadow: 0 0 1px black;
+}
+
 /*===================== Tipografia =====================*/
 
 body{
@@ -297,6 +310,34 @@ u{
 input{
 	width: 100%;
 }
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: #F1875E;
+  box-shadow: 0 0 0 1px #F1875E;
+}
+
+textarea {
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
 
 .align-texto-center{
 	text-align: center;
@@ -311,4 +352,17 @@ input{
 
 .height-570px{
 	height: 570px;
+}
+
+@media screen and (min-height: 600px) and (max-height:900px){
+	body{
+		background-size: 150%;
+	}
+
+	.first-frame, .secound-frame, .project{
+		padding-top: 15px;
+		padding-left: 15px;	
+		font-weight: 500;
+		height: 100%;
+	}
 }
