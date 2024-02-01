@@ -11,6 +11,7 @@
 @media screen and (max-width: 479px){
 	body{
 		background-size: 300%;
+		box-sizing: border-box;
 	}
 
 	.first-frame, .secound-frame, .project{
@@ -104,15 +105,3 @@
 
 }
 
-@media screen and (min-height: 600px) and (max-height:900px){
-	body{
-		background-size: 150%;
-	}
-
-	.first-frame, .secound-frame, .project{
-		padding-top: 15px;
-		padding-left: 15px;	
-		font-weight: 500;
-		height: 100%;
-	}
-}
