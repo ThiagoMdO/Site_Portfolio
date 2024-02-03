@@ -218,6 +218,7 @@
 
 .video-project-normal-height{
 	height: 276px;
+	transition: height .9s;
 }
 
 #project1{
@@ -296,6 +297,7 @@
 body{
 	background: url('../img/fluxo-cod.png') no-repeat fixed;
 	background-size: 100%;
+	background-repeat: repeat-y;
 }
 
 *{
@@ -344,13 +346,12 @@ button:disabled {
 }
 
 .height-0px{
-	display: none;
-	position: absolute;
-	height: 0px;
-	transition: height .1s;
+	height: 0;
+	transition: height .9s;
 }
 
 .height-570px{
 	height: 570px;
+	transition: height .9s;
 }
 
