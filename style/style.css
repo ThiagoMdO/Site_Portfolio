@@ -13,7 +13,6 @@
 	font-weight: 800;
 }
 .first-frame{
-	/*background: #051A16;*/
 	color: #F8F7F9;
 	height: 100vh;
 }
@@ -41,6 +40,7 @@
 	border: 1px solid #F1875E;
 	border-radius: 10px;
 	transition: all .3s;
+	margin-top: 15px;
 }
 .btn-custom:hover{
 	color: #F1875E;
@@ -60,9 +60,9 @@
 	height: 85px;
 	border-radius: 50%;
 	-webkit-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
-    -moz-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
-    -o-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
-    transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+  -moz-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+  -o-transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
+  transition: all .3s cubic-bezier(.13, 1.7, .64, -0.92);
 	background-size: 100%;
 	margin: 10px 25px;
 }
@@ -114,8 +114,6 @@
 	background-size: 100%;
 	margin-top: -40px;
 	top: 700%;
-	/*background: url('../img/email-icon-press.png');*/
-	/*background: red;*/
 }
 
 
@@ -132,10 +130,10 @@
 	margin-bottom: 20px;
 }
 .secound-frame .picture-perfil{
+	margin: 50px 0;
 	width: 200px;
 }
 .secound-frame .contact{
-	margin-top: 100px;
 	color: #F1875E;
 }
 .secound-frame .contact:hover{

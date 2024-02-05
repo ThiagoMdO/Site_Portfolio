@@ -13,6 +13,9 @@
 		background-size: 300%;
 		box-sizing: border-box;
 	}
+	.first-frame{
+		height: 105vh;
+	}
 
 	.first-frame, .secound-frame, .project{
 		padding-top: 10px;
@@ -32,15 +35,17 @@
 		margin-top: 30px;
 		width: 280px;
 	}
-
+	.first-frame .btn-custom{
+		margin-top: 50px;
+	}
 	.btn-custom{
 		width: 250px;
-		margin-bottom: 5px;
+		margin: 10px 0;
 	}
 
 	.my-references{
 		text-align: center;
-		margin: 15px 0 10px 20px;
+		margin: 0px 0 10px 20px;
 		width: 250px;
 	}
 
