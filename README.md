@@ -1,6 +1,8 @@
 <h1 align="center">
-  <img src = "https://github.com/ThiagoMdO/Site_Portfolio/assets/128644651/d7b9c200-6d8f-4a45-a3a4-4927c3e652a3" style="margin-top:30px; width: 400px">
-  <p>My Website Portfolio</p>
+  <a href="https://thiagomdo.github.io/Site_Portfolio/" target="_blank">
+    <img src = "https://github.com/ThiagoMdO/Site_Portfolio/assets/128644651/d7b9c200-6d8f-4a45-a3a4-4927c3e652a3" style="margin-top:30px; width: 400px">
+    <p>My Website Portfolio</p>
+  </a>
 </h1>
  <h1>About site</h1>
  
@@ -8,7 +10,7 @@
 
  <div align="center">
    <img src="https://github.com/ThiagoMdO/Site_Portfolio/assets/128644651/59b18248-917c-42cf-8fe9-3cd4a0af0774" style="margin-top: 30px; width: 300px;" alt="Alright, what's the code" >
-   
+   <br/>
  </div>
 
 <br/>
@@ -35,3 +37,8 @@
 
 **Resolution 4K Monitor/Television, 3840x2160**
   <video src="https://github.com/ThiagoMdO/Site_Portfolio/assets/128644651/7b05f9b6-7312-4f7d-8c7a-8c131d20bd78" style="margin-top: 30px; width: 300px; height:240 " alt="Alright, what's the code" ></video>
+
+<div align="center">
+   <a href="https://thiagomdo.github.io/Site_Portfolio/" target="_blank"> Access my website in here </a>
+ </div>
+ 
