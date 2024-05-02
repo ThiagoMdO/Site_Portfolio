@@ -193,14 +193,14 @@
 	background: url('../img/technologies/JUnit5-icon.png') no-repeat;
 	background-size: 100%;
 }
-.Mockito-icon{	
+.Mockito-icon{
+	background: url('../img/technologies/mockito-icon.png') no-repeat;
 	background-size: 100%;
 	border-radius: 50%;
-	background: url('../img/technologies/mockito-icon.png') no-repeat;
 }
 .Swagger-icon{
-	background-size: 100%;
 	background: url('../img/technologies/swagger-icon.png') no-repeat;
+	background-size: 100%;
 }
 .html5-icon{
 	background: url('../img/technologies/html5-icon.png') no-repeat;
