@@ -15,6 +15,7 @@
 	}
 	.first-frame{
 		height: 105vh;
+		margin-bottom: 10px;
 	}
 
 	.first-frame, .secound-frame, .project{

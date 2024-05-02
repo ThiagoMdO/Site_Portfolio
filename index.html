@@ -83,6 +83,49 @@
 
 		        }
 		    );
+
+
+		    $('#first-video-secound-project-java').hover(
+		        function(){
+
+		            $('#iframe-video-projeto-2-java').removeClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2-java').removeClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-2-java').addClass('height-0px');
+		            $('#iframe-video-projeto-1-java').addClass('height-570px');
+		        },
+		        function(){
+		            $('#iframe-video-projeto-2-java').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1-java').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2-java').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1-java').addClass('video-project-normal-height-4k');
+
+		            $('#iframe-video-projeto-1-java').removeClass('height-570px');
+		            $('#iframe-video-projeto-1-java').removeClass('height-0px');
+					$('#iframe-video-projeto-2-java').removeClass('height-570px');
+		            $('#iframe-video-projeto-2-java').removeClass('height-0px');
+		        }
+		    );
+
+		    $('#secound-video-secound-project-java').hover(
+		        function(){
+					$('#iframe-video-projeto-1-java').removeClass('video-project-normal-height');					
+					$('#iframe-video-projeto-1-java').removeClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1-java').addClass('height-0px');
+		            $('#iframe-video-projeto-2-java').addClass('height-570px');
+		        },
+		        function(){
+		            $('#iframe-video-projeto-2-java').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-1-java').addClass('video-project-normal-height');
+		            $('#iframe-video-projeto-2-java').addClass('video-project-normal-height-4k');
+		            $('#iframe-video-projeto-1-java').addClass('video-project-normal-height-4k');
+
+		            $('#iframe-video-projeto-2-java').removeClass('height-570px');
+		            $('#iframe-video-projeto-2-java').removeClass('height-0px');
+					$('#iframe-video-projeto-1-java').removeClass('height-570px');
+		            $('#iframe-video-projeto-1-java').removeClass('height-0px');
+
+		        }
+		    );
 		})
 
 
@@ -105,7 +148,7 @@
 					Atualmente, estou aprimorando meus conhecimentos em Java, Spring Framework e Docker.
 
 					<br/>
-					<a href="#project1" type="button" class="btn btn-custom">VEJA MEUS PROJETOS</a>
+					<a href="#project-Java" type="button" class="btn btn-custom">VEJA MEUS PROJETOS</a>
 					<br/>
 					<div class="my-references">
 						<a href="CV/01 - curriculo Thiago Mendes.pdf" target="_blank" class="link-references CV-icon"></a>
@@ -159,11 +202,14 @@
 							<div title="JavaScript" class="tech-icon js-icon"></div>
 							<div title="SpringBoot" class="tech-icon springBoot-icon"></div>
 							<div title="Jquery" class="tech-icon jquery-icon"></div>
-							<div title="AWS Practitioner" class="tech-icon awsPractitioner-icon"></div>
+							<div title="AWS Cloud Practitioner" class="tech-icon awsPractitioner-icon"></div>
 							<div title="MySQL" class="tech-icon mySQL-icon"></div>
 							<div title="HTML" class="tech-icon html5-icon"></div>
 							<div title="CSS" class="tech-icon css3-icon"></div>
 							<div title="Postman" class="tech-icon postman-icon"></div>
+							<div title="JUnit 5" class="tech-icon JUnit5-icon"></div>								
+							<div title="Mockito" class="tech-icon Mockito-icon"></div>
+							<div title="Swagger" class="tech-icon Swagger-icon"></div>
 						</div>
 					</div>
 					<h2>Aperfeiçoando</h2>
@@ -176,6 +222,57 @@
 			</div>
 			
 		</div>
+		<div id="project-Java" class="container-fluid project">
+			<div class="row">
+				<div class="col-md-12 work-title">
+					<h2>Desafio</h2>
+				</div>
+				<div class="col-md-6">
+
+					<div class="align-texto-center project-description">
+						<h2>Book_Store</h2>						
+						<br/>
+						<div class="d-flex justify-content-center">
+							<p class="d-flex ">
+								Este projeto foi realizado com base em um desafio.
+								<br/>
+								A aplicação é responsável por parte de um sistema capaz de gerir o controle de vendas de livros numa Livraria e é possível receber feedback onde o cliente pode escolher o seu nível de satisfação e criar ou editar um comentário num pedido
+								<br/>
+								Possui três microsserviços: Product, Order e Feedback
+							</p>
+						</div>
+
+
+						<div class="project-gitHub">
+							<a href="https://github.com/ThiagoMdO/SpringBoot_Challenge_Book_Store" type="button" class="btn btn-custom" target="_blank">Projeto no GitHub</a>
+						</div>
+						<div class="skills">
+							<div class="container">
+								<div title="Java" class="tech-icon java-icon"></div>
+								<div title="SpringBoot" class="tech-icon springBoot-icon"></div>
+								<div title="MongoDB" class="tech-icon mongodb-icon-svg"></div>
+								<div title="JUnit 5" class="tech-icon JUnit5-icon"></div>								
+								<div title="Mockito" class="tech-icon Mockito-icon"></div>
+								<div title="Swagger" class="tech-icon Swagger-icon"></div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div id="video-project-java" class="col-md-6 video-project">
+					<div id="first-video-secound-project-java">
+						<iframe id="iframe-video-projeto-1-java" class="video-project-normal-height video-project-normal-height-4k"  width="100%" height="100%" src="https://www.youtube.com/embed/QFQKDeA8Uyw?si=uV_9hKSZVThdRP-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+					<div id="secound-video-secound-project-java">
+						<iframe id="iframe-video-projeto-2-java" class="video-project-normal-height video-project-normal-height-4k"  width="100%" height="100%" src="https://www.youtube.com/embed/O2e-UoFXtnQ?si=u6o-MLapjf5dHqnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
 		<div id="project1" class="container-fluid project">
 			<div class="row">
 				<div class="col-md-12 work-title">

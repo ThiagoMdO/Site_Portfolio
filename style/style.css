@@ -127,7 +127,7 @@
 .secound-frame h2{
 	font-weight: 700;
 	color: #808080;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .secound-frame .picture-perfil{
 	margin: 50px 0;
@@ -146,14 +146,14 @@
 	color: #7E7E7E;
 }
 .skills{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
+
 .tech-icon{
 	display: inline-block;
 	text-decoration: none;
-	width: 50px;
-	height: 50px;
-	margin-top: 10px;
+	width: 40px;
+	height: 40px;
 }
 
 
@@ -185,6 +185,23 @@
 	background: url('../img/technologies/mySQL-icon.png') no-repeat;
 	background-size: 100%;
 }
+.mongodb-icon-svg{
+	background: url('../img/technologies/mongodb-icon.svg') no-repeat;
+	background-size: 100%;
+}
+.JUnit5-icon{
+	background: url('../img/technologies/JUnit5-icon.png') no-repeat;
+	background-size: 100%;
+}
+.Mockito-icon{
+	background: url('../img/technologies/Mockito-icon.png') no-repeat;
+	background-size: 100%;
+	border-radius: 50%;
+}
+.Swagger-icon{
+	background: url('../img/technologies/Swagger-icon.png') no-repeat;
+	background-size: 100%;
+}
 .html5-icon{
 	background: url('../img/technologies/html5-icon.png') no-repeat;
 	background-size: 100%;
@@ -206,6 +223,10 @@
 	padding-bottom: 65px;
 }
 
+.project-gitHub a{
+	margin-bottom: 10px;
+}
+
 .project{
 	height: 90vh;
 }
@@ -217,6 +238,11 @@
 .video-project-normal-height{
 	height: 276px;
 	transition: height .9s;
+}
+
+#project-Java{
+	background: #051916;
+	color: #F8F7F9;
 }
 
 #project1{
