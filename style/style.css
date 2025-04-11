@@ -156,9 +156,12 @@
 	height: 40px;
 }
 
-
 .java-icon{
 	background: url('../img/technologies/java-icon.png') no-repeat;
+	background-size: 100%;
+}
+.kotlin-icon{
+	background: url('../img/technologies/kotlin-icon.png') no-repeat;
 	background-size: 100%;
 }
 .php-icon{
